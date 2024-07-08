@@ -3,5 +3,4 @@ export interface TODO {
   taskName: string;
   isCompleted: boolean;
   createdAt: Date;
-  deletedAt: Date | null;
 }
