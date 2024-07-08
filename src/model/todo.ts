@@ -14,3 +14,7 @@ export const addTask = (newTask: TODO) => {
   tasklist.push(task);
   return tasklist;
 };
+
+export const getTasks = () => {
+  return tasklist;
+};

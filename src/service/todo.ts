@@ -6,3 +6,8 @@ export const addTask = (newTask: TODO) => {
   const task = todoModel.addTask(newTask);
   return task;
 };
+
+export const getTasks = () => {
+  const task = todoModel.getTasks();
+  return task;
+};
