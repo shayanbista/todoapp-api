@@ -1,4 +1,4 @@
-import { TODO } from "../interfaces/todo";
+import { TODO } from "../interface/task";
 import * as todoModel from "../model/todo";
 
 export const addTask = (newTask: TODO) => {

@@ -1,5 +1,5 @@
-import { TODO } from "../interfaces/todo";
-import { Tasklist } from "../interfaces/tasklist";
+import { TODO } from "../interface/task";
+import { Tasklist } from "../interface/tasklist";
 
 export const taskList: Tasklist = [];
 

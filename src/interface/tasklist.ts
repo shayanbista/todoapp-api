@@ -1,3 +1,3 @@
-import { TODO } from "./todo";
+import { TODO } from "./task";
 
 export type Tasklist = TODO[];
